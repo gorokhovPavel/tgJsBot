@@ -6,8 +6,6 @@ const bot = new telegramApi(token, {polling: true})
 
 bot.on('message', mes=>{
 
-    // console.log(mes)
-
     const text = mes.text;
     const chatId = mes.chat.id
 
