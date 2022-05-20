@@ -34,7 +34,6 @@ const start = () =>{
             return bot.sendMessage(chatId, `This is tgBot`)
         }
 
-
         if(text === '/game'){
             await bot.sendMessage(chatId, 'Now let s try to know my number!')
             const rnd = Math.floor(Math.random()* 10)
