@@ -25,6 +25,7 @@ const start = () =>{
         {command: 'game', description: 'wer'},
     ])
 
+    
     bot.on('message', async mes=>{
         const text = mes.text;
         const chatId = mes.chat.id
