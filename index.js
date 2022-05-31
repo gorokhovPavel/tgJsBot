@@ -4,6 +4,7 @@ const bot = new telegramApi(token, {polling: true})
 
 //https://habr.com/ru/post/666278/
 
+
 const chats = {}
 
 
