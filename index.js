@@ -20,6 +20,7 @@ const gameOptions = {
 }
 
 
+
 const start = () =>{
     bot.setMyCommands([
         {command: 'start', description: 'wer'},
