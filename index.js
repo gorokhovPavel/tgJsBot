@@ -51,7 +51,6 @@ const start = () =>{
         return bot.sendMessage(chatId, 'don t understand')
     })
 
-
     bot.on('callback_query', msg=>{
         console.log(msg)
     })
