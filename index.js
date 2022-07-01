@@ -51,5 +51,4 @@ const start = () =>{
         console.log(msg)
     })
 }
-
 start()
