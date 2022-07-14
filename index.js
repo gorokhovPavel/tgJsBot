@@ -21,7 +21,8 @@ const gameOptions = {
     })
 }
 
-const start = () =>{
+const start = () =>
+{
     bot.setMyCommands([
         {command: 'start', description: 'wer'},
         {command: 'info', description: 'wer'},
