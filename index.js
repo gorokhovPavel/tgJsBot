@@ -6,7 +6,6 @@ const bot = new telegramApi(token, {polling: true})
 const chats = {}
 
 const gameOptions = {
-    
     reply_markup: JSON.stringify({
         inline_keyboard: [
             [{text: '1', callback_data: '1'}],
