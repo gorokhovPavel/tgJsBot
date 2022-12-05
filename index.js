@@ -37,6 +37,7 @@ const start = () =>
         if(text === '/info'){
             return bot.sendMessage(chatId, `This is tgBot`)
         }
+        
 
         if(text === '/game'){
             await bot.sendMessage(chatId, 'Now let s try to know my number!')
