@@ -17,6 +17,7 @@ const gameOptions = {
     })
 }
 
+
 const start = () =>
 {
     bot.setMyCommands([
